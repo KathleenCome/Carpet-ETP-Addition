@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.etparty.carpetetpaddition.mixins",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "rule.ComparatorBlockMixin",
+    "rule.noteblockskip.redstoneWireBlockMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
